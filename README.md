@@ -3,7 +3,11 @@
 ![Alt-Text](https://ps.w.org/ammazza-webar/assets/banner-772%C3%97250.jpg?rev=2585959)
 
 
-Live try on module for ammazza clients
+AMMAZZA is an out-of-box multi-utility product in the market of jewellery with the fusion of AR (Augmented Reality) + AI (Artificial Intelligence) + BI (Business Intelligence).
+
+By integrating Virtual Try-On feature, customers can try jewellery from anywhere anytime.
+
+Virtual Try-On is available for Facial and Hand jewelleries like Earrings, Necklace, Sets, Rings, Bracelets.
 
 
 

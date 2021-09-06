@@ -1,6 +1,6 @@
 {
   "name": "ammazza-webar",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Live try on module for ammazza clients",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
