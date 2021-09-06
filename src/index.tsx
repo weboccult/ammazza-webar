@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Alert, Button, Modal, StyleSheet, View } from "react-native";
+import { Alert, Button, Modal, Platform, StyleSheet, View } from "react-native";
 import { WebView } from 'react-native-webview';
 
 export class LiveTryon extends Component {
@@ -30,7 +30,9 @@ export class LiveTryon extends Component {
               this.setModalVisible(!modalVisible);
             }}
           >
-             <WebView style={styles.fullBox} source={{ uri: `https://tryon.ammazza.me/?client_id=${this.state.cId}&product_id=${this.state.pId}` }} />
+             <WebView style={styles.fullBox}
+             allowsInlineMediaPlayback={true}
+             source={{ uri: `https://tryon.ammazza.me/?client_id=${this.state.cId}&product_id=${this.state.pId}${Platform.OS === 'ios' ? '?is_ios=true' : ''}` }} />
             <Button
   onPress={() => this.setModalVisible(false)}
   title="Close"
